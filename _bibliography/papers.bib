@@ -1,115 +1,131 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{bargum2024reimagining,
+  abbr={Frontiers},
+  title={Reimagining Speech: A Scoping Review of Deep Learning-based Methods for Non-parallel Voice Conversion},
+  author={Bargum, Anders R. and Serafin, Stefania and Erkut, Cumhur},
+  journal={Frontiers in signal processing},
+  volume={4},
+  pages={1339159},
+  year={2024},
+  publisher={Frontiers Media SA},
+  abstract = "Research on deep learning-powered voice conversion (VC) in speech-to-speech scenarios are gaining increasing popularity. Although many of the works in the field of voice conversion share a common global pipeline, there is considerable diversity in the underlying structures, methods, and neural sub-blocks used across research efforts. Thus, obtaining a comprehensive understanding of the reasons behind the choice of the different methods included when training voice conversion models can be challenging, and the actual hurdles in the proposed solutions are often unclear. To shed light on these aspects, this paper presents a scoping review that explores the use of deep learning in speech analysis, synthesis, and disentangled speech representation learning within modern voice conversion systems. We screened 628 publications from more than 38 venues between 2017 and 2023, followed by an in-depth review of a final database of 130 eligible studies. Based on the review, we summarise the most frequently used approaches to voice conversion based on deep learning and highlight common pitfalls. We condense the knowledge gathered to identify main challenges, supply solutions grounded in the analysis and provide recommendations for future research directions.",
+  html={https://www.frontiersin.org/journals/signal-processing/articles/10.3389/frsip.2024.1339159/full},
+  selected={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{d7638addede64bf58034ffa7d0a502e7,
+abbr={DAFx},
+title = "RAVE for Speech: Efficient Voice Conversion at High Sampling Rates",
+abstract = "Voice conversion has gained increasing popularity within the field of audio manipulation and speech synthesis. Often, the main objective is to transfer the input identity to that of a target speaker without changing its linguistic content. While current work provides high-fidelity solutions they rarely focus on model simplicity, high-sampling rate environments or stream-ability. By incorporating speech representation learning into a generative timbre transfer model, traditionally created for musical purposes, we investigate the realm of voice conversion generated directly in the time domain at high sampling rates. More specifically, we guide the latent space of a baseline model towards linguistically relevant representations and condition it on external speaker information. Through objective and subjective assessments, we demonstrate that the proposed solution can attain levels of naturalness, quality, and intelligibility comparable to those of a state-of-the-art solution for seen speakers, while significantly decreasing inference time. However, despite the presence of target speaker characteristics in the converted output, the actual similarity to unseen speakers remains a challenge.",
+keywords = "cs.SD, eess.AS",
+author = "Bargum, Anders R. and Simon Lajboschitz and Cumhur Erkut",
+year = "2024",
+publisher = "DAFx",
+pages = "41--48",
+booktitle = "Proceedings of the 27th International Conference on Digital Audio Effects (DAFx24)",
+html={https://www.dafx.de/paper-archive/2024/papers/DAFx24_paper_14.pdf},
+selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{bargum2023spatial,
+abbr={Springer},
+  title={Spatial Audio Mixing in Virtual Reality},
+  author={Bargum, Anders R. and Kristj{\'a}nsson, Oddur Ingi and Bab{\'o}, P{\'e}ter and Nielsen, Rasmus Eske Waage and Mosen, Simon Rostami and Serafin, Stefania},
+  journal={Sonic Interactions in Virtual Environments},
+  volume={269},
+  pages={269--302},
+  year={2023},
+  abstract = "The development of Virtual Reality (VR) systems and multimodal simulations presents possibilities in spatial-music mixing, be it in virtual spaces, for ensembles and orchestral compositions or for surround sound in film and music. Traditionally, user interfaces for mixing music have employed the channel-strip metaphor for controlling volume, panning and other audio effects that are aspects that also have grown into the culture of mixing music spatially. Simulated rooms and two-dimensional panning systems are simply implemented on computer screens to facilitate the placement of sound sources within space. In this chapter, we present design aspects for mixing in VR, investigating already existing virtual music mixing products and creating a framework from which a virtual spatial-music mixing tool can be implemented. Finally, the tool will be tested against a similar computer version to examine whether or not the sensory benefits and palpable spatial proportions of a VE can improve the process of mixing 3D sound.",
+  html={https://link-springer-com.zorac.aub.aau.dk/chapter/10.1007/978-3-031-04021-4_9}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{bargum2021virtual,
+abbr={IEEE VR},
+  title={Virtual Reconstruction of the Ambisonic Concert Hall of the Royal Danish Academy of Music},
+  author={Bargum, Anders R. and Kandpal, Devansh and Kristjansson, Oddur Ingi and Mosen, Simon Rostami and Andersen, Jesper and Serafin, Stefania},
+  booktitle={2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)},
+  pages={99--102},
+  year={2021},
+  organization={IEEE},
+  abstract = "In this paper we present a simulation and validation of the Ambisonic concert hall at the Royal Danish Academy of Music (RDAM), which was inaugurated on September 19th, 2019 in Copenhagen.Validation with experts showed that the simulated ambisonic room was perceived to match the acoustic- and spatial attributes of its real counterpart.",
+  html={https://ieeexplore-ieee-org.zorac.aub.aau.dk/document/9419224}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{d822eb12ff00466fabb72976cee1e82f,
+abbr={DAFx},
+title = "Differentiable All-pass Filters for Phase Response Estimation and Automatic Signal Alignment",
+abstract = "Virtual analog (VA) audio effects are increasingly based on neural networks and deep learning frameworks. Due to the underlying black-box methodology, a successful model will learn to approximate the data it is presented, including potential errors such as latency and audio dropouts as well as non-linear characteristics and frequency-dependent phase shifts produced by the hardware. The latter is of particular interest as the learned phase-response might cause unwanted audible artifacts when the effect is used for creative processing techniques such as dry-wet mixing or parallel compression. To overcome these artifacts we propose differentiable signal processing tools and deep optimization structures for automatically tuning all-pass filters to predict the phase response of different VA simulations, and align processed signals that are out of phase. The approaches are assessed using objective metrics while listening tests evaluate their ability to enhance the quality of parallel path processing techniques. Ultimately, an over-parameterized, BiasNet-based, all-pass model is proposed for the optimization problem under consideration, resulting in models that can estimate all-pass filter coefficients to align a dry signal with its affected, wet, equivalent.",
+author = "Bargum, Anders R. and Stefania Serafin and Cumhur Erkut and Parker, \{Julian D.\}",
+year = "2023",
+publisher = "DAFx",
+pages = "235--242",
+booktitle = "Proceedings of the 26th International Conference on Digital Audio Effects (DAFx24)",issn = "2413-6700",
+abstract = "Virtual analog (VA) audio effects are increasingly based on neural
+networks and deep learning frameworks. Due to the underlying
+black-box methodology, a successful model will learn to approximate the data it is presented, including potential errors such as
+latency and audio dropouts as well as non-linear characteristics
+and frequency-dependent phase shifts produced by the hardware.
+The latter is of particular interest as the learned phase-response
+might cause unwanted audible artifacts when the effect is used for
+creative processing techniques such as dry-wet mixing or parallel
+compression. To overcome these artifacts we propose differentiable signal processing tools and deep optimization structures for
+automatically tuning all-pass filters to predict the phase response
+of different VA simulations, and align processed signals that are
+out of phase. The approaches are assessed using objective metrics while listening tests evaluate their ability to enhance the quality of parallel path processing techniques. Ultimately, an overparameterized, BiasNet-based, all-pass model is proposed for the
+optimization problem under consideration, resulting in models that
+can estimate all-pass filter coefficients to align a dry signal with its
+affected, wet, equivalent.",
+html = {https://vbn.aau.dk/ws/portalfiles/portal/593952137/DAFx23_paper_22.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{bargum2025exploring,
+abbr={IEEE VR},
+  title={Exploring the Impact of AI-Generated Speech on Avatar Perception and Realism in Virtual Reality Environments},
+  author={Bargum, Anders R. and Hansen, Emil S{\o}nderskov and Erkut, Cumhur and Serafin, Stefania},
+  booktitle={2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)},
+  pages={647--652},
+  year={2025},
+  organization={IEEE},
+  abstract = "The representation of avatars as virtual human characters plays a pivotal role in shaping key aspects of the user experience in virtual reality (VR), including immersion, social presence, and overall enjoyment. While prior research has predominantly focused on the impact of visual and behavioral realism on the perception of such avatars, the influence of synthetic speech on avatar realism, emotional communication, and social presence remains insufficiently explored, both in offline applications and for real-time scenarios. This study systematically compares various machine learning-based speech synthesis and voice conversion algorithms with human speech across neutral and emotional stimuli to evaluate how different AI-based synthetic speech methods affect user perceptions of avatars in VR. Building upon existing literature, the investigation seeks to examine the impact of nuanced variations in synthetic auditory stimuli, with consistent timbre and speaker identity, while exploring the use of a potentially real-time voice conversion algorithm in an ecologically valid VR setting. Our findings provide valuable insights into the interplay between AI, auditory realism and avatar presence, with broader implications for live social VR platforms, therapeutic interventions, and immersive environments.",
+  html={https://ieeexplore-ieee-org.zorac.aub.aau.dk/document/10973025/}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{ai_i_sundhed,
+abbr={FADL},
+  author={Bargum, Anders R. and Lajboschitz, Simon and Shiraz, Farah and Saaby, Thomas N.},
+  year= 2025, 
+  title={Avatar Terapi: Når AI-og VR-teknologi giver stemme til det uhåndgribelige}, 
+  editor = {A. Pihl, A. Dargahi, T. R. Savarimuthu}, 
+  booktitle= {Kunstig Intelligens i Sundhed, FADL's Forlag A/S}, 
+  publisher= {FADL's Forlag A/S},
+  address= {København}, 
+  abstract = "Kunstig intelligens (AI) er omkring os, i lommen på os, styrer store dele af vores opmærksomhed og liv. Det ændrer vores arbejdsmarked, vores adfærd, vores kommunikation og vores sundhed. Men hvor meget kan AI rent faktisk hjælpe os i sundhedsvæsenet? Hvordan kan teknologien konkret hjælpe patienter, sundhedspersonale og samfundet? Og hvordan gør den det allerede? Kunstig intelligens i sundhed giver et dybdegående indblik i brugen af AI i det danske sundhedsvæsen, med et virvar af lokale aktører, et snørklet offentligt sundhedsvæsen, store markedskræfter, og voldsom interesse fra patienter, udviklere og politikere. Ved at beskrive de mest prominente danske AI-løsninger giver forfatterne et billede af, hvordan en AI-løsning bliver til, hvilke udfordringer der kan være på vejen, og kommer med bud på sund og bæredygtig skalering og, hvordan vi opnår den bedste ressourcebesparelse med AI i sundhedsvæsenet.",
+  html = {https://fadlforlag.dk/produkt/kunstig-intelligens-i-sundhed/}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{apsipa,
+abbr={APSIPA},
+  author={Bargum, Anders R. and Masuda, Naotake and Teleaga, Bogdan and Fyfe, Andrew and Erkut, Cumhur.},
+  year= 2025, 
+  title={Unified Timbre Transfer: A Compact Model for Real-Time Multi-Instrument Sound Morphing}, 
+  booktitle= {Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}, 
+  abstract = "Recent advances in transformer-and diffusion-based
+deep-generative models have significantly impacted the field of
+music and audio synthesis. However, controllable and real-time
+interactive models, such as those used for timbre transfer in
+music production, remain largely dominated by auto-encoders
+and generative adversarial networks. In pursuit of efficient and
+flexible timbre morphing and multi-instrument timbre trans-
+fer, we propose a simplified modeling approach, utilizing an
+upsampled two-dimensional timbre space in conjunction with
+engineered and instrument-dependent excitation signals. Different
+from many other works, our model enables any-to-many timbre
+transfer with added control over timbre, pitch, and loudness. We
+additionally allow for seamless interpolation between instruments,
+eliminating the need for separate model training. Our evaluation
+shows performance comparable to specialized models, making it
+highly relevant for the broader creative audio community.",
+selected={true}
 }
