@@ -45,3 +45,9 @@ A guest lecture for the *Sound and Music Computing (SMC)* program. Introduced st
 **Event:** The Swiss Conference on Data Science (SDS)
 
 ---
+
+#### HPC for Impact: Turning Research Into Innovation
+**Year:** 2025  
+**Event:** Webinar (Euro HPC)
+
+---
