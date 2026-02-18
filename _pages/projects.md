@@ -74,7 +74,10 @@ nav_order: 7
   <div class="project-item">
     <h2 class="project-title">Real-time Voice Conversion and Speaker Design</h2>
     <p class="project-description">
-      As part of my doctoral research, I developed a real-time voice conversion system implemented within the Unity game engine via the JUCE/C++ framework. The system enables novel voice synthesis through the manipulation of perceptual speech characteristics, including 'gender' and 'age' attributes, as well as fine-grained prosodic control over pitch parameters. You can try an interactive demonstration on [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abargum/vc-sd-reproduction/blob/main/demo_colab.ipynb).
+      As part of my doctoral research, I developed a real-time voice conversion system implemented within the Unity game engine via the JUCE/C++ framework. The system enables novel voice synthesis through the manipulation of perceptual speech characteristics, including 'gender' and 'age' attributes, as well as fine-grained prosodic control over pitch parameters. You can try an interactive demonstration on 
+      <a href="https://colab.research.google.com/github/abargum/vc-sd-reproduction/blob/main/demo_colab.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+      </a>.
+
     </p>
     <div class="video-container">
       <iframe src="https://player.vimeo.com/video/1145741519?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Unity Voice Demo"></iframe>
