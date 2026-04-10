@@ -86,6 +86,15 @@ nav_order: 7
 
   <!-- Project 2 -->
   <div class="project-item">
+    <h2 class="project-title">Danish Speech Recognition — Fine-tuning Whisper</h2>
+    <p class="project-description">
+      Fine-tuned <a href="https://huggingface.co/openai/whisper-tiny" target="_blank">OpenAI Whisper-tiny</a> (~40M parameters) on the <a href="https://huggingface.co/datasets/CoRal-project/coral-v2" target="_blank">CoRal-v2</a> Danish speech corpus (~250k samples spanning a wide range of ages and dialect groups). Three training variants were explored; a frozen-encoder baseline, a data-augmented variant, and a LoRA adapter. The baseline achieves <strong>~41% WER</strong>, down from a 104% baseline and well below the only other publicly available tiny Danish model (~83% WER). The fine-tuned model is hosted on <a href="https://huggingface.co/abargum/whisper-tiny-base" target="_blank">HuggingFace</a> and served via a Dockerized FastAPI inference API. Source code is available on <a href="https://github.com/abargum/whisper-danish" target="_blank">GitHub</a>.
+    </p>
+    <img src="/assets/img/whisper_eval.png" alt="WER and CER comparison across models" style="max-width: 800px; width: 100%; display: block; margin: 0 auto; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-item">
     <h2 class="project-title">Unified Timbre Transfer</h2>
     <p class="project-description">
       A unified timbre transfer plugin running in the Neutone VST, applicable to any DAW. The model can perform timbre transfer on any monophonic, periodic, input and morph seamlessly between different instruments counting; violin, bassoon and trumpet. In this example we drive the plugin with a simple sine oscillator. For more information see the paper in the <a href="/publications/">publications</a> section or this <a href="https://medium.com/qosmo-lab/controllable-timbre-transfer-and-sound-morphing-a-research-collaboration-with-neutone-ba25ca91586e">blog post</a>.
@@ -95,7 +104,7 @@ nav_order: 7
     </div>
   </div>
 
-  <!-- Project 3 -->
+  <!-- Project 4 -->
   <div class="project-item">
     <h2 class="project-title">Eye-Driven Electric Guitar</h2>
     <p class="project-description">
