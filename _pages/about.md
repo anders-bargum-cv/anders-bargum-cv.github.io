@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-A research and development oriented PhD student in the field of audio processing, speech represenatation learning, deep learning and voice synthesis. I am affiliated with the [Multisensory Experience Lab](https://melcph.create.aau.dk/) at Aalborg University in Copenhagen and actively collaborating with the industrial partner [Heka VR](https://hekavr.com). Project use-cases ranges everything in between virtual reality, audio analysis and creative music production.
+A research and development oriented PhD student in the fields of AI, ML and DSP focusing on audio processing, representation learning, and speech technology (synthesis, analysis, transcription). I am affiliated with the [Multisensory Experience Lab](https://melcph.create.aau.dk/) at Aalborg University in Copenhagen and actively collaborating with the industrial partner [Heka VR](https://hekavr.com). Project use-cases ranges everything in between virtual reality, audio analysis and creative music production.
 
 I am currently working on alternative deep learning methods and models for real-time voice conversion in virtual therapeutic scenarios (AVATAR Therapy). Within the field of audio AI, I have worked on, developed, and trained models across a wide range of topics, including speech verification, differentiable DSP, and neural audio codecs. I also have extensive experience exporting these models for real-time use, for example via Hugging Face or C++/JUCE-hosted TorchScript models.
 
